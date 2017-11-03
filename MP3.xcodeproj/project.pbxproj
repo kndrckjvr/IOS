@@ -12,6 +12,35 @@
 		D9C8BA021F9E7DD700B8FB98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA001F9E7DD700B8FB98 /* Main.storyboard */; };
 		D9C8BA041F9E7DD700B8FB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA031F9E7DD700B8FB98 /* Assets.xcassets */; };
 		D9C8BA071F9E7DD700B8FB98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA051F9E7DD700B8FB98 /* LaunchScreen.storyboard */; };
+		D9C8BA271F9E8C8B00B8FB98 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA0F1F9E8C8B00B8FB98 /* bg.png */; };
+		D9C8BA281F9E8C8B00B8FB98 /* foxlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA101F9E8C8B00B8FB98 /* foxlogo.png */; };
+		D9C8BA291F9E8C8B00B8FB98 /* arya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA121F9E8C8B00B8FB98 /* arya.jpg */; };
+		D9C8BA2A1F9E8C8B00B8FB98 /* bran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA131F9E8C8B00B8FB98 /* bran.jpg */; };
+		D9C8BA2B1F9E8C8B00B8FB98 /* cersei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA141F9E8C8B00B8FB98 /* cersei.jpg */; };
+		D9C8BA2C1F9E8C8B00B8FB98 /* daenerys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA151F9E8C8B00B8FB98 /* daenerys.jpg */; };
+		D9C8BA2D1F9E8C8B00B8FB98 /* jaime.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA161F9E8C8B00B8FB98 /* jaime.jpg */; };
+		D9C8BA2E1F9E8C8B00B8FB98 /* jon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA171F9E8C8B00B8FB98 /* jon.jpg */; };
+		D9C8BA2F1F9E8C8B00B8FB98 /* petyr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA181F9E8C8B00B8FB98 /* petyr.jpg */; };
+		D9C8BA301F9E8C8B00B8FB98 /* sansa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA191F9E8C8B00B8FB98 /* sansa.jpg */; };
+		D9C8BA311F9E8C8B00B8FB98 /* tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA1A1F9E8C8B00B8FB98 /* tyrion.jpg */; };
+		D9C8BA321F9E8C8B00B8FB98 /* gotbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA1B1F9E8C8B00B8FB98 /* gotbg.jpg */; };
+		D9C8BA331F9E8C8B00B8FB98 /* hbologo.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA1C1F9E8C8B00B8FB98 /* hbologo.png */; };
+		D9C8BA341F9E8C8B00B8FB98 /* abraham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA1E1F9E8C8B00B8FB98 /* abraham.jpg */; };
+		D9C8BA351F9E8C8B00B8FB98 /* carl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA1F1F9E8C8B00B8FB98 /* carl.jpg */; };
+		D9C8BA361F9E8C8B00B8FB98 /* carol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA201F9E8C8B00B8FB98 /* carol.jpg */; };
+		D9C8BA371F9E8C8B00B8FB98 /* daryl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA211F9E8C8B00B8FB98 /* daryl.jpg */; };
+		D9C8BA381F9E8C8B00B8FB98 /* glenn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA221F9E8C8B00B8FB98 /* glenn.jpg */; };
+		D9C8BA391F9E8C8B00B8FB98 /* maggie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA231F9E8C8B00B8FB98 /* maggie.jpg */; };
+		D9C8BA3A1F9E8C8B00B8FB98 /* negan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA241F9E8C8B00B8FB98 /* negan.jpg */; };
+		D9C8BA3B1F9E8C8B00B8FB98 /* rick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA251F9E8C8B00B8FB98 /* rick.jpg */; };
+		D9C8BA3C1F9E8C8B00B8FB98 /* sasha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA261F9E8C8B00B8FB98 /* sasha.jpg */; };
+		D9C8BA3E1F9E905400B8FB98 /* twdbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA3D1F9E905400B8FB98 /* twdbg.jpg */; };
+		D9C8BA451F9EA3A300B8FB98 /* ari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA401F9EA3A300B8FB98 /* ari.jpg */; };
+		D9C8BA461F9EA3A300B8FB98 /* eric.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA411F9EA3A300B8FB98 /* eric.jpg */; };
+		D9C8BA471F9EA3A300B8FB98 /* johnny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA421F9EA3A300B8FB98 /* johnny.jpg */; };
+		D9C8BA481F9EA3A300B8FB98 /* turtle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA431F9EA3A300B8FB98 /* turtle.jpg */; };
+		D9C8BA491F9EA3A300B8FB98 /* vincent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA441F9EA3A300B8FB98 /* vincent.jpg */; };
+		D9C8BA4B1F9EA3BA00B8FB98 /* entouragebg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9C8BA4A1F9EA3BA00B8FB98 /* entouragebg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +51,35 @@
 		D9C8BA031F9E7DD700B8FB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C8BA061F9E7DD700B8FB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9C8BA081F9E7DD700B8FB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C8BA0F1F9E8C8B00B8FB98 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		D9C8BA101F9E8C8B00B8FB98 /* foxlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foxlogo.png; sourceTree = "<group>"; };
+		D9C8BA121F9E8C8B00B8FB98 /* arya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arya.jpg; sourceTree = "<group>"; };
+		D9C8BA131F9E8C8B00B8FB98 /* bran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bran.jpg; sourceTree = "<group>"; };
+		D9C8BA141F9E8C8B00B8FB98 /* cersei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cersei.jpg; sourceTree = "<group>"; };
+		D9C8BA151F9E8C8B00B8FB98 /* daenerys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daenerys.jpg; sourceTree = "<group>"; };
+		D9C8BA161F9E8C8B00B8FB98 /* jaime.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jaime.jpg; sourceTree = "<group>"; };
+		D9C8BA171F9E8C8B00B8FB98 /* jon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jon.jpg; sourceTree = "<group>"; };
+		D9C8BA181F9E8C8B00B8FB98 /* petyr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petyr.jpg; sourceTree = "<group>"; };
+		D9C8BA191F9E8C8B00B8FB98 /* sansa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sansa.jpg; sourceTree = "<group>"; };
+		D9C8BA1A1F9E8C8B00B8FB98 /* tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tyrion.jpg; sourceTree = "<group>"; };
+		D9C8BA1B1F9E8C8B00B8FB98 /* gotbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gotbg.jpg; sourceTree = "<group>"; };
+		D9C8BA1C1F9E8C8B00B8FB98 /* hbologo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hbologo.png; sourceTree = "<group>"; };
+		D9C8BA1E1F9E8C8B00B8FB98 /* abraham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abraham.jpg; sourceTree = "<group>"; };
+		D9C8BA1F1F9E8C8B00B8FB98 /* carl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carl.jpg; sourceTree = "<group>"; };
+		D9C8BA201F9E8C8B00B8FB98 /* carol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carol.jpg; sourceTree = "<group>"; };
+		D9C8BA211F9E8C8B00B8FB98 /* daryl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daryl.jpg; sourceTree = "<group>"; };
+		D9C8BA221F9E8C8B00B8FB98 /* glenn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glenn.jpg; sourceTree = "<group>"; };
+		D9C8BA231F9E8C8B00B8FB98 /* maggie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maggie.jpg; sourceTree = "<group>"; };
+		D9C8BA241F9E8C8B00B8FB98 /* negan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = negan.jpg; sourceTree = "<group>"; };
+		D9C8BA251F9E8C8B00B8FB98 /* rick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rick.jpg; sourceTree = "<group>"; };
+		D9C8BA261F9E8C8B00B8FB98 /* sasha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sasha.jpg; sourceTree = "<group>"; };
+		D9C8BA3D1F9E905400B8FB98 /* twdbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twdbg.jpg; sourceTree = "<group>"; };
+		D9C8BA401F9EA3A300B8FB98 /* ari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ari.jpg; sourceTree = "<group>"; };
+		D9C8BA411F9EA3A300B8FB98 /* eric.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eric.jpg; sourceTree = "<group>"; };
+		D9C8BA421F9EA3A300B8FB98 /* johnny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = johnny.jpg; sourceTree = "<group>"; };
+		D9C8BA431F9EA3A300B8FB98 /* turtle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtle.jpg; sourceTree = "<group>"; };
+		D9C8BA441F9EA3A300B8FB98 /* vincent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vincent.jpg; sourceTree = "<group>"; };
+		D9C8BA4A1F9EA3BA00B8FB98 /* entouragebg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = entouragebg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +112,7 @@
 		D9C8B9FB1F9E7DD700B8FB98 /* MP3 */ = {
 			isa = PBXGroup;
 			children = (
+				D9C8BA0E1F9E8C8B00B8FB98 /* Pictures */,
 				D9C8B9FC1F9E7DD700B8FB98 /* AppDelegate.swift */,
 				D9C8B9FE1F9E7DD700B8FB98 /* ViewController.swift */,
 				D9C8BA001F9E7DD700B8FB98 /* Main.storyboard */,
@@ -62,6 +121,66 @@
 				D9C8BA081F9E7DD700B8FB98 /* Info.plist */,
 			);
 			path = MP3;
+			sourceTree = "<group>";
+		};
+		D9C8BA0E1F9E8C8B00B8FB98 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8BA4A1F9EA3BA00B8FB98 /* entouragebg.jpg */,
+				D9C8BA3F1F9EA3A300B8FB98 /* entourage */,
+				D9C8BA3D1F9E905400B8FB98 /* twdbg.jpg */,
+				D9C8BA0F1F9E8C8B00B8FB98 /* bg.png */,
+				D9C8BA101F9E8C8B00B8FB98 /* foxlogo.png */,
+				D9C8BA111F9E8C8B00B8FB98 /* got */,
+				D9C8BA1B1F9E8C8B00B8FB98 /* gotbg.jpg */,
+				D9C8BA1C1F9E8C8B00B8FB98 /* hbologo.png */,
+				D9C8BA1D1F9E8C8B00B8FB98 /* twd */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+		D9C8BA111F9E8C8B00B8FB98 /* got */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8BA121F9E8C8B00B8FB98 /* arya.jpg */,
+				D9C8BA131F9E8C8B00B8FB98 /* bran.jpg */,
+				D9C8BA141F9E8C8B00B8FB98 /* cersei.jpg */,
+				D9C8BA151F9E8C8B00B8FB98 /* daenerys.jpg */,
+				D9C8BA161F9E8C8B00B8FB98 /* jaime.jpg */,
+				D9C8BA171F9E8C8B00B8FB98 /* jon.jpg */,
+				D9C8BA181F9E8C8B00B8FB98 /* petyr.jpg */,
+				D9C8BA191F9E8C8B00B8FB98 /* sansa.jpg */,
+				D9C8BA1A1F9E8C8B00B8FB98 /* tyrion.jpg */,
+			);
+			path = got;
+			sourceTree = "<group>";
+		};
+		D9C8BA1D1F9E8C8B00B8FB98 /* twd */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8BA1E1F9E8C8B00B8FB98 /* abraham.jpg */,
+				D9C8BA1F1F9E8C8B00B8FB98 /* carl.jpg */,
+				D9C8BA201F9E8C8B00B8FB98 /* carol.jpg */,
+				D9C8BA211F9E8C8B00B8FB98 /* daryl.jpg */,
+				D9C8BA221F9E8C8B00B8FB98 /* glenn.jpg */,
+				D9C8BA231F9E8C8B00B8FB98 /* maggie.jpg */,
+				D9C8BA241F9E8C8B00B8FB98 /* negan.jpg */,
+				D9C8BA251F9E8C8B00B8FB98 /* rick.jpg */,
+				D9C8BA261F9E8C8B00B8FB98 /* sasha.jpg */,
+			);
+			path = twd;
+			sourceTree = "<group>";
+		};
+		D9C8BA3F1F9EA3A300B8FB98 /* entourage */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8BA401F9EA3A300B8FB98 /* ari.jpg */,
+				D9C8BA411F9EA3A300B8FB98 /* eric.jpg */,
+				D9C8BA421F9EA3A300B8FB98 /* johnny.jpg */,
+				D9C8BA431F9EA3A300B8FB98 /* turtle.jpg */,
+				D9C8BA441F9EA3A300B8FB98 /* vincent.jpg */,
+			);
+			path = entourage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +243,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C8BA3A1F9E8C8B00B8FB98 /* negan.jpg in Resources */,
+				D9C8BA481F9EA3A300B8FB98 /* turtle.jpg in Resources */,
 				D9C8BA071F9E7DD700B8FB98 /* LaunchScreen.storyboard in Resources */,
+				D9C8BA461F9EA3A300B8FB98 /* eric.jpg in Resources */,
 				D9C8BA041F9E7DD700B8FB98 /* Assets.xcassets in Resources */,
+				D9C8BA271F9E8C8B00B8FB98 /* bg.png in Resources */,
+				D9C8BA2A1F9E8C8B00B8FB98 /* bran.jpg in Resources */,
+				D9C8BA2B1F9E8C8B00B8FB98 /* cersei.jpg in Resources */,
+				D9C8BA281F9E8C8B00B8FB98 /* foxlogo.png in Resources */,
+				D9C8BA491F9EA3A300B8FB98 /* vincent.jpg in Resources */,
+				D9C8BA381F9E8C8B00B8FB98 /* glenn.jpg in Resources */,
+				D9C8BA321F9E8C8B00B8FB98 /* gotbg.jpg in Resources */,
+				D9C8BA2E1F9E8C8B00B8FB98 /* jon.jpg in Resources */,
+				D9C8BA361F9E8C8B00B8FB98 /* carol.jpg in Resources */,
+				D9C8BA341F9E8C8B00B8FB98 /* abraham.jpg in Resources */,
+				D9C8BA451F9EA3A300B8FB98 /* ari.jpg in Resources */,
+				D9C8BA331F9E8C8B00B8FB98 /* hbologo.png in Resources */,
+				D9C8BA4B1F9EA3BA00B8FB98 /* entouragebg.jpg in Resources */,
+				D9C8BA2D1F9E8C8B00B8FB98 /* jaime.jpg in Resources */,
+				D9C8BA311F9E8C8B00B8FB98 /* tyrion.jpg in Resources */,
+				D9C8BA2F1F9E8C8B00B8FB98 /* petyr.jpg in Resources */,
+				D9C8BA3B1F9E8C8B00B8FB98 /* rick.jpg in Resources */,
+				D9C8BA351F9E8C8B00B8FB98 /* carl.jpg in Resources */,
+				D9C8BA291F9E8C8B00B8FB98 /* arya.jpg in Resources */,
+				D9C8BA371F9E8C8B00B8FB98 /* daryl.jpg in Resources */,
+				D9C8BA2C1F9E8C8B00B8FB98 /* daenerys.jpg in Resources */,
+				D9C8BA3C1F9E8C8B00B8FB98 /* sasha.jpg in Resources */,
+				D9C8BA471F9EA3A300B8FB98 /* johnny.jpg in Resources */,
+				D9C8BA3E1F9E905400B8FB98 /* twdbg.jpg in Resources */,
+				D9C8BA391F9E8C8B00B8FB98 /* maggie.jpg in Resources */,
+				D9C8BA301F9E8C8B00B8FB98 /* sansa.jpg in Resources */,
 				D9C8BA021F9E7DD700B8FB98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HWW3JX37AH;
 				INFOPLIST_FILE = MP3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feutech.MP3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HWW3JX37AH;
 				INFOPLIST_FILE = MP3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feutech.MP3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +454,7 @@
 				D9C8BA0D1F9E7DD700B8FB98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
