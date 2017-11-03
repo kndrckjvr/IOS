@@ -12,6 +12,8 @@
 		016B67E31FAC576B00FA76D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016B67E11FAC576B00FA76D3 /* Main.storyboard */; };
 		016B67E51FAC576B00FA76D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016B67E41FAC576B00FA76D3 /* Assets.xcassets */; };
 		016B67E81FAC576B00FA76D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016B67E61FAC576B00FA76D3 /* LaunchScreen.storyboard */; };
+		016B680E1FAC620F00FA76D3 /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B680D1FAC620F00FA76D3 /* ItemsTableViewCell.swift */; };
+		016B68101FAC644E00FA76D3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B680F1FAC644E00FA76D3 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		016B67E41FAC576B00FA76D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016B67E71FAC576B00FA76D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		016B67E91FAC576B00FA76D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016B680D1FAC620F00FA76D3 /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
+		016B680F1FAC644E00FA76D3 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				016B67DD1FAC576A00FA76D3 /* AppDelegate.swift */,
 				016B67DF1FAC576A00FA76D3 /* ViewController.swift */,
 				016B67E11FAC576B00FA76D3 /* Main.storyboard */,
+				016B680D1FAC620F00FA76D3 /* ItemsTableViewCell.swift */,
+				016B680F1FAC644E00FA76D3 /* Item.swift */,
 				016B67E41FAC576B00FA76D3 /* Assets.xcassets */,
 				016B67E61FAC576B00FA76D3 /* LaunchScreen.storyboard */,
 				016B67E91FAC576B00FA76D3 /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016B68101FAC644E00FA76D3 /* Item.swift in Sources */,
 				016B67E01FAC576A00FA76D3 /* ViewController.swift in Sources */,
 				016B67DE1FAC576A00FA76D3 /* AppDelegate.swift in Sources */,
+				016B680E1FAC620F00FA76D3 /* ItemsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +271,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HWW3JX37AH;
 				INFOPLIST_FILE = Paratical/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.applesix.Paratical;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HWW3JX37AH;
 				INFOPLIST_FILE = Paratical/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.applesix.Paratical;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +312,7 @@
 				016B67EE1FAC576B00FA76D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
