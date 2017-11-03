@@ -12,6 +12,9 @@
 		D98988A41F9427DA00D73BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98988A21F9427DA00D73BFC /* Main.storyboard */; };
 		D98988A61F9427DA00D73BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98988A51F9427DA00D73BFC /* Assets.xcassets */; };
 		D98988A91F9427DA00D73BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98988A71F9427DA00D73BFC /* LaunchScreen.storyboard */; };
+		D98988B11F942D1100D73BFC /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98988B01F942D1100D73BFC /* RedViewController.swift */; };
+		D98988B31F942D1F00D73BFC /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98988B21F942D1F00D73BFC /* GreenViewController.swift */; };
+		D98988B51F942D2C00D73BFC /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98988B41F942D2C00D73BFC /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D98988A51F9427DA00D73BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D98988A81F9427DA00D73BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D98988AA1F9427DA00D73BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98988B01F942D1100D73BFC /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		D98988B21F942D1F00D73BFC /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		D98988B41F942D2C00D73BFC /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				D98988A51F9427DA00D73BFC /* Assets.xcassets */,
 				D98988A71F9427DA00D73BFC /* LaunchScreen.storyboard */,
 				D98988AA1F9427DA00D73BFC /* Info.plist */,
+				D98988B01F942D1100D73BFC /* RedViewController.swift */,
+				D98988B21F942D1F00D73BFC /* GreenViewController.swift */,
+				D98988B41F942D2C00D73BFC /* BlueViewController.swift */,
 			);
 			path = Activity_4;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98988B31F942D1F00D73BFC /* GreenViewController.swift in Sources */,
 				D98988A11F9427DA00D73BFC /* ViewController.swift in Sources */,
+				D98988B11F942D1100D73BFC /* RedViewController.swift in Sources */,
+				D98988B51F942D2C00D73BFC /* BlueViewController.swift in Sources */,
 				D989889F1F9427DA00D73BFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +277,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HWW3JX37AH;
 				INFOPLIST_FILE = Activity_4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.feutech.Activity-4";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.applesix.Activity-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -278,8 +291,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HWW3JX37AH;
 				INFOPLIST_FILE = Activity_4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.feutech.Activity-4";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.applesix.Activity-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,6 +318,7 @@
 				D98988AF1F9427DA00D73BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
