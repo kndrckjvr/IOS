@@ -105,6 +105,7 @@
 				TargetAttributes = {
 					2EB517E61FB29B4700B3480B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HWW3JX37AH;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -272,9 +273,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HWW3JX37AH;
 				INFOPLIST_FILE = SampleTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fourteen.SampleTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applesix.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -284,9 +287,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HWW3JX37AH;
 				INFOPLIST_FILE = SampleTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fourteen.SampleTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applesix.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -311,6 +316,7 @@
 				2EB517FE1FB29B4700B3480B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

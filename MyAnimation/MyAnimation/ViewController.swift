@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ball.frame = CGRect(x: view.bounds.midX - 50, y: 0, width: 100, height: 100)
+        ball.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         ball.backgroundColor = UIColor.clear
         ball.isOpaque = false
         self.view.addSubview(ball)
