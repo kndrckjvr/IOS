@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="W32DPFour" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gfe-cw-tkr">
+                                <rect key="frame" x="16" y="84" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cSU-EI-0jJ">
+                                <rect key="frame" x="16" y="122" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eLi-2d-hZH">
+                                <rect key="frame" x="16" y="160" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJ6-AN-52v">
+                                <rect key="frame" x="16" y="198" width="343" height="30"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="btnSave:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Mo-tS-9Na"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uG7-Rh-xZk">
+                                <rect key="frame" x="16" y="236" width="343" height="30"/>
+                                <state key="normal" title="Show All Item"/>
+                                <connections>
+                                    <action selector="btnShow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SKf-1a-XKB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gfe-cw-tkr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="37d-R0-gUF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JJ6-AN-52v" secondAttribute="trailing" id="4AB-Zr-eya"/>
+                            <constraint firstItem="JJ6-AN-52v" firstAttribute="top" secondItem="eLi-2d-hZH" secondAttribute="bottom" constant="8" symbolic="YES" id="HE8-jk-sqs"/>
+                            <constraint firstItem="JJ6-AN-52v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JuC-5a-cKe"/>
+                            <constraint firstItem="eLi-2d-hZH" firstAttribute="top" secondItem="cSU-EI-0jJ" secondAttribute="bottom" constant="8" symbolic="YES" id="NaS-rY-sid"/>
+                            <constraint firstItem="uG7-Rh-xZk" firstAttribute="top" secondItem="JJ6-AN-52v" secondAttribute="bottom" constant="8" symbolic="YES" id="NiS-MI-hne"/>
+                            <constraint firstItem="Gfe-cw-tkr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="Nk9-Kb-cc9"/>
+                            <constraint firstItem="uG7-Rh-xZk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Oxg-dK-dOU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eLi-2d-hZH" secondAttribute="trailing" id="RcQ-IQ-Hgp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gfe-cw-tkr" secondAttribute="trailing" id="RyY-Gt-Ss8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cSU-EI-0jJ" secondAttribute="trailing" id="Sb9-fp-N94"/>
+                            <constraint firstItem="eLi-2d-hZH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="chB-6k-pw7"/>
+                            <constraint firstItem="cSU-EI-0jJ" firstAttribute="top" secondItem="Gfe-cw-tkr" secondAttribute="bottom" constant="8" symbolic="YES" id="qGd-Ki-j1g"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uG7-Rh-xZk" secondAttribute="trailing" id="why-cd-Nnn"/>
+                            <constraint firstItem="cSU-EI-0jJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zBA-xR-I8v"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtID" destination="Gfe-cw-tkr" id="OAR-J5-Rpf"/>
+                        <outlet property="txtName" destination="cSU-EI-0jJ" id="lhK-B4-Uh2"/>
+                        <outlet property="txtPrice" destination="eLi-2d-hZH" id="rI1-Tr-cfM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>
